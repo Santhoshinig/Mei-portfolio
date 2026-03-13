@@ -225,7 +225,7 @@ const Landing = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
-            className="text-4xl md:text-8xl font-black text-slate-900 leading-tight tracking-tight mb-8"
+            className="text-4xl md:text-6xl lg:text-7xl font-black text-slate-900 leading-tight tracking-tight mb-8"
           >
             Compassion <br/>In <span className="text-medical-600">Care.</span> 
           </motion.h1>
@@ -326,7 +326,7 @@ const About = () => {
               <span className="inline-flex items-center gap-2 text-[10px] font-black text-medical-600 uppercase tracking-widest mb-5">
                 <span className="w-8 h-px bg-medical-600" /> Professional Identity
               </span>
-              <h3 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight tracking-tight mb-6">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight tracking-tight mb-6">
                 Dedicated to <span className="text-medical-600">Compassionate</span> Patient Care
               </h3>
               <p className="text-slate-500 leading-relaxed font-medium text-base">
@@ -382,7 +382,7 @@ const Education = () => {
       <div className="container mx-auto px-6 text-center lg:text-left">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           <div className="lg:w-1/3">
-            <h2 className="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter uppercase mb-6 leading-tight">Global <br/><span className="text-medical-600">Education</span></h2>
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase mb-6 leading-tight">Global <br/><span className="text-medical-600">Education</span></h2>
             <p className="text-slate-500 font-medium mb-8">Comprehensive academic training in healthcare, nursing protocols, and clinical diagnostics.</p>
             <div className="p-6 bg-slate-50 rounded-3xl border border-slate-100 italic font-bold text-slate-600">
                "Education is the most powerful weapon which you can use to change the world."
@@ -447,7 +447,7 @@ const Experience = () => {
           <span className="inline-flex items-center gap-2 text-[10px] font-black text-medical-600 uppercase tracking-widest mb-4">
             <span className="w-6 h-px bg-medical-600" /> Career Timeline <span className="w-6 h-px bg-medical-600" />
           </span>
-          <h2 className="text-4xl md:text-6xl font-black text-slate-900 tracking-tight uppercase leading-tight">
+          <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight uppercase leading-tight">
             Clinical <span className="text-medical-600">Experience</span>
           </h2>
         </motion.div>
@@ -628,7 +628,7 @@ const Contact = () => {
           className="text-white pr-0 lg:pr-16 py-8"
         >
           <div className="w-10 h-1 bg-white/40 mb-8" />
-          <h2 className="text-5xl md:text-8xl font-black tracking-tight uppercase leading-[0.9] mb-8">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight uppercase leading-[0.9] mb-8">
             Let's <br/><span className="text-white/60">Connect</span>
           </h2>
           <p className="text-white/70 font-medium text-lg mb-12 leading-relaxed max-w-sm">
