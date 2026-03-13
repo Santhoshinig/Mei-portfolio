@@ -201,7 +201,7 @@ const Navbar = ({ isVisible }) => {
 
 const Landing = () => {
   return (
-    <section className="relative flex flex-col items-center justify-start overflow-hidden bg-white px-4 pb-12 lg:pb-24 pt-8 lg:pt-16">
+    <section className="relative flex flex-col items-center justify-start overflow-hidden bg-white pb-12 lg:pb-24 pt-8 lg:pt-16">
       {/* Background Decor */}
       <div className="absolute top-0 left-0 w-full h-full opacity-[0.05] pointer-events-none">
         <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -210,7 +210,7 @@ const Landing = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center z-10">
+      <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center z-10">
         <div className="text-center lg:text-left order-2 lg:order-1">
           <motion.h2 
             initial={{ opacity: 0, x: -20 }}
@@ -296,7 +296,7 @@ const Landing = () => {
 const About = () => {
   return (
     <AnimatedSection id="about" className="bg-white relative overflow-hidden">
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image LEFT */}
           <motion.div variants={itemVariants} className="relative">
@@ -379,7 +379,7 @@ const Education = () => {
 
   return (
     <AnimatedSection id="education" className="bg-white">
-      <div className="container mx-auto px-6 text-center lg:text-left">
+      <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16 text-center lg:text-left">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           <div className="lg:w-1/3">
             <h2 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter uppercase mb-6 leading-tight">Global <br/><span className="text-medical-600">Education</span></h2>
@@ -442,7 +442,7 @@ const Experience = () => {
 
   return (
     <AnimatedSection id="experience" className="bg-slate-50">
-      <div className="container mx-auto px-6">
+      <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16">
         <motion.div variants={itemVariants} className="text-center mb-16">
           <span className="inline-flex items-center gap-2 text-[10px] font-black text-medical-600 uppercase tracking-widest mb-4">
             <span className="w-6 h-px bg-medical-600" /> Career Timeline <span className="w-6 h-px bg-medical-600" />
@@ -523,7 +523,7 @@ const Skills = () => {
 
   return (
     <AnimatedSection id="skills" className="bg-white">
-      <div className="container mx-auto px-6">
+      <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16">
         {/* Skill cards */}
         <motion.div variants={itemVariants} className="mb-12">
           <p className="text-[10px] font-black text-medical-600 uppercase tracking-widest mb-8 flex items-center gap-2">
@@ -618,7 +618,7 @@ const Contact = () => {
         <div className="bg-white" />
       </div>
 
-      <div className="relative container mx-auto px-6 py-24 grid lg:grid-cols-2 gap-0 items-center">
+      <div className="relative max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16 py-16 lg:py-24 grid lg:grid-cols-2 gap-0 items-center">
         {/* Left — bold red panel */}
         <motion.div
           variants={sectionVariants}
@@ -728,7 +728,7 @@ const Contact = () => {
 
 const Footer = () => (
   <footer className="py-12 bg-white border-t border-slate-100">
-    <div className="container mx-auto px-6 flex flex-col items-center gap-6 text-center md:text-left">
+    <div className="max-w-6xl mx-auto w-full px-6 md:px-10 lg:px-16 flex flex-col items-center gap-6 text-center md:text-left">
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 w-full">
         <div className="flex items-center gap-2">
           <Activity className="text-medical-600" size={24} />
